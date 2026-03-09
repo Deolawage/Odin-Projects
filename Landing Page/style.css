@@ -1,0 +1,245 @@
+/*Universal Selector*/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;/*Select Document Font type*/
+    
+}
+
+
+/*nav Bar*/
+/*navbar*/
+
+.nav-list {
+    list-style: none;
+    margin:0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+   }
+ 
+   .nav-item{
+     margin-right: 50px;
+     margin-left: 50px;
+     
+   
+   }
+ 
+   .nav-item a{
+     color: #f9faf8;
+     text-decoration: none;
+     font-size: 24px;
+   }
+ 
+   .nav-item a:hover{
+     color: #f9faf8;
+   }
+ 
+   .nav-item a:active{
+     color:#ff0000;
+   }
+ 
+   .nav-item:nth-child(2){
+     margin-left: auto; /* Make Nav items move to the right*/
+   }
+ 
+  /*navbar*/
+
+  /* Using Group selectors to make background color same*/
+  .nav-list, .hero-container{
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
+
+
+  /*hero-section*/
+
+  .hero-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    overflow: hidden;
+    padding: 100px;
+    border: 50px;
+    
+  }
+
+  .hero_text{
+    text-align: left;
+   margin-left: 10px;
+   padding: 100px;
+   /*color: #ffffff;*/
+  }
+
+  #hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+
+  .hero-secondary-text{
+   font-size: 18px;
+   color:#e5e7eb;
+  }
+
+  .button{
+        background-color: #3882f6;
+        border:0px;
+     padding: 8px 32px;
+        color: #f9faf8;
+        border-radius: 10px;
+        font-size: 15px; /* Rounded corners*/
+        font-weight: bold;
+        text-align: center;
+      
+  }
+
+
+  .hero-img{
+    display: block;
+    margin: auto;
+    background-color:  hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    border:0px;
+  }
+
+
+  .image-container{
+    position: relative;
+  }
+
+
+  .text-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+  }
+/*hero-section ends here*/
+
+/*Information Section*/
+  .info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 48px;
+  }
+
+.info-header{
+  font-size: 36px;
+  font-weight: 900;
+  color:#1f2937;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1000px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 20px;
+ margin-bottom: 10px;
+}
+
+.card p{
+  text-align: center;
+  color: gray;
+}
+/*Information Section ends here*/
+
+
+/*Quote Section*/
+.quote-section{
+  background-color: #e5e7eb;
+  width: 100%;
+  padding: 100px;
+
+}
+
+.quote-content{
+  padding: 50px;
+}
+
+.quote-text{
+  font-size: 36px;
+  font-weight: 300;
+  color:#1f2937;
+  font-style: italic;
+}
+
+.quote-content h2{
+  text-align: right;
+}
+/*Quote Section ends here*/
+
+
+/*Call Section*/
+.call-section{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.call-banner{
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  padding: 48px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+
+.call-btn{
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 8px 32px;
+}
+/*Call Section ends here*/
+
+
+/*Footer Section*/
+footer{
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 32px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*Footer Section ends here*/
+
+/*Project ends 
+Done by Deolawage
+Date completed: 3/9/26
+Date started: 3/8/26
+Odin Project*/

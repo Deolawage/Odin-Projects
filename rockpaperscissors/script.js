@@ -1,7 +1,7 @@
-
 /* Declaring Variable */
 let humanScore = 0;
 let computerScore = 0;
+let gameOver = false;
 
 /*Function for Computer Choice*/
 function getComputerChoice (){
@@ -20,61 +20,54 @@ if (random < 0.33) {
 console.log (getComputerChoice());
 
 
-//Function for Human Choice
+//Choice-btn
 
-/*function getHumanChoice() {
-    const userchoice = prompt("Enter your choice (rock, paper, or scissors): score++").toLowerCase();
-    return userchoice;
-}
-console.log(getHumanChoice());
+const choiceBtn = document.querySelectorAll(".choice-btn");
+ choiceBtn.forEach((button) => {
+    button.addEventListener("click", () => {
+   
+   
+         if (gameOver) {
+        return;
+    }
 
+       const humanChoice = button.dataset.choice
+     const result = (playRound(humanChoice, getComputerChoice()));
 
-
-function getHumanChoice() {
-    const userchoice = prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
-    return userchoice;
-}
-console.log(getHumanChoice());
-
-
-
-function getHumanChoice() {
-    const userchoice = prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
-    return userchoice;
-}
-console.log(getHumanChoice());
-
-
-function getHumanChoice() {
-    const userchoice = prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
-    return userchoice;
-}
-console.log(getHumanChoice());
-
-
-function getHumanChoice() {
-    const userchoice = prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
-    return userchoice;
-}
-console.log(getHumanChoice());
-*/
-
-for (let i=1; i<=5; i++){
-function getHumanChoice() {
-    const userchoice = prompt("Enter your choice (rock, paper, or scissors): score++").toLowerCase();
-    return userchoice;
-}
-console.log(getHumanChoice());
+     if ( result.winner === "human"){
+humanScore++;
+} else if ( result.winner === "computer"){
+computerScore++
+} else if( result.winner === "tie"){
 
 }
 
+scoreShow.textContent = result.message;
+
+scoreDisplay.textContent = `Human: ${humanScore} — Computer: ${computerScore}`;
+
+
+if ( humanScore >= 5){
+    gameOver = true;
+   scoreDisplay.textContent = "Human Wins" 
+} else if ( computerScore >= 5){
+    gameOver = true;
+    scoreDisplay.textContent = "Computer Wins"
+}
+
+    });
+    
+});
+
+
+  const scoreShow = document.getElementById("results");
 
 function playRound(humanChoice, computerChoice) {
     humanChoice = humanChoice.toLowerCase();
 
     
     if (humanChoice === computerChoice) {
-        return "It's a tie!";
+        return { message: "It's a tie!", winner: "tie" };
     }
     // Logic to determine the winner
     if (
@@ -82,45 +75,11 @@ function playRound(humanChoice, computerChoice) {
         (humanChoice === "paper" && computerChoice === "rock") ||
         (humanChoice === "scissors" && computerChoice === "paper")
     ) {
-        return `You win! ${humanChoice} beats ${computerChoice}`;
+        return { message:`You win! ${humanChoice} beats ${computerChoice}`, winner:"human" };
     } else {
-        return `You lose! ${computerChoice} beats ${humanChoice}`;
+        return { message: `You lose! ${computerChoice} beats ${humanChoice}`, winner:"computer" };
     }
 }
-
-
-console.log(playRound(getHumanChoice(), getComputerChoice()));
-
-
-
-//playGame Section
-
-function playGame(){
-function playRound(humanChoice, computerChoice) {
-    humanChoice = humanChoice.toLowerCase();
-
-    
-    if (humanChoice === computerChoice) {
-        return "It's a tie!";
-    }
-    // Logic to determine the winner
-    if (
-        (humanChoice === "rock" && computerChoice === "scissors") ||
-        (humanChoice === "paper" && computerChoice === "rock") ||
-        (humanChoice === "scissors" && computerChoice === "paper")
-    ) {
-        return `You win! ${humanChoice} beats ${computerChoice}`;
-    } else {
-        return `You lose! ${computerChoice} beats ${humanChoice}`;
-    }
-}
-
-
-console.log(playRound(getHumanChoice(), getComputerChoice()));
-  
-}
- 
-
-
+const scoreDisplay = document.getElementById("show-board");
 
 

@@ -22,6 +22,7 @@ Projects completed as part of the Foundations curriculum:
 | 🍽️ Recipes | A multi-page recipe site built with semantic HTML and linked pages | HTML | [View](odin-recipe) |
 | 🎨 Landing Page | A fully structured landing page built from a design spec | HTML, CSS | [View](Landing Page) |
 | Rockpaperscissors Game | A simple game of rockpaperscissors| HTML, Javascript| [View](https://deolawage.github.io/Odin-Projects/rockpaperscissors/) 
+| Etch-a-Sketch | A simple etch-a-sketch program | HTML, Javascript | [View](https://deolawage.github.io/Odin-Projects/Etch-a-Sketch/) |
 
 ---
 

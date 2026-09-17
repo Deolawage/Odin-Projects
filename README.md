@@ -28,6 +28,7 @@ Projects completed as part of the Foundations curriculum:
 | Rockpaperscissors Game | A simple game of rockpaperscissors| HTML, Javascript| [View](https://deolawage.github.io/Odin-Projects/rockpaperscissors/) 
 | Etch-a-Sketch | A simple etch-a-sketch program | HTML, Javascript | [View](https://deolawage.github.io/Odin-Projects/Etch-a-Sketch/) |
 | Calculator | A simple Calculator  | HTML, CSS, Javascript | [View](https://deolawage.github.io/Odin-Projects/Calculator/)|
+| Form | A simple Form Using Html Validation  | HTML, CSS | [View](https://deolawage.github.io/Odin-Projects/Form/)|
 
 ---
 ## 📈 Currently Learning

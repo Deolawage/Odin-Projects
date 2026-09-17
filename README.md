@@ -1,6 +1,10 @@
 # Hi, I'm Delight Tiolawani Ageloye (Deolawage) 👋
 
-I'm a self-taught developer working through [The Odin Project](https://www.theodinproject.com/) — a free, open-source full-stack curriculum. I'm currently progressing through the **Foundations** path, building real projects from scratch.
+I'm a self-taught developer working through [The Odin Project](https://www.theodinproject.com/) — a free, open-source full-stack curriculum. Completed The Odin Project's Foundations path, Now progressing through Full Stack JavaScript — building real, deployed projects from scratch.
+
+
+
+
 
 ---
 
@@ -29,9 +33,11 @@ Projects completed as part of the Foundations curriculum:
 
 ## 📈 Currently Learning
 
-- CSS Flexbox & Grid
-- JavaScript fundamentals
-- DOM manipulation
+- Advance HTML and CSS.
+- JavaScript. 
+- React.
+- Node.
+- SQL.
 
 ---
 

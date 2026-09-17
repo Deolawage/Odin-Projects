@@ -30,24 +30,24 @@ Projects completed as part of the Foundations curriculum:
 | Calculator | A simple Calculator  | HTML, CSS, Javascript | [View](https://deolawage.github.io/Odin-Projects/Calculator/)|
 
 ---
-
 ## 📈 Currently Learning
 
-- Advance HTML and CSS.
-- JavaScript. 
-- React.
-- Node.
-- SQL.
+- **Intermediate HTML and CSS** (current — Forms section)
 
+## 🔜 Coming Up
+- Advanced HTML and CSS
+- JavaScript
+- React
+- Node.js
+- SQL / Databases
 ---
 
 ## 🎯 Goals
 
-- Complete The Odin Project Foundations path
-- Move into Full Stack JavaScript
-- Build a portfolio of projects I'm proud of
-
----
+- ✅ Complete The Odin Project Foundations path (done — includes Rock Paper Scissors with full git branch workflow, Etch-a-Sketch with both extra credit challenges, and a Calculator handling every required edge case plus decimal input, backspace, and keyboard support)
+- 🌱 Progressing through Full Stack JavaScript (currently in Intermediate HTML and CSS — Forms section)
+- Reach React (target: late October 2026)
+- Build a portfolio of projects I'm proud of — three real, deployed projects done so far, more ahead through JavaScript, React, and NodeJS courses
 
 ## 📫 Get in Touch
 

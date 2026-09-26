@@ -34,13 +34,17 @@ Projects completed as part of the Foundations curriculum:
 
 
 ---
+##Covered.
+-Foundations Path
+-Intermediate HTML and CSS
+
+
 ## 📈 Currently Learning
 
-- **Intermediate HTML and CSS** (current — Forms section)
+-JavaScript 
 
 ## 🔜 Coming Up
 - Advanced HTML and CSS
-- JavaScript
 - React
 - Node.js
 - SQL / Databases
@@ -49,7 +53,7 @@ Projects completed as part of the Foundations curriculum:
 ## 🎯 Goals
 
 - ✅ Complete The Odin Project Foundations path (done — includes Rock Paper Scissors with full git branch workflow, Etch-a-Sketch with both extra credit challenges, and a Calculator handling every required edge case plus decimal input, backspace, and keyboard support)
-- 🌱 Progressing through Full Stack JavaScript (currently in Intermediate HTML and CSS — Forms section)
+- 🌱 Progressing through Full Stack JavaScript (currently in JavaScript)
 - Reach React (target: late October 2026)
 - Build a portfolio of projects I'm proud of — three real, deployed projects done so far, more ahead through JavaScript, React, and NodeJS courses
 

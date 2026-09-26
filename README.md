@@ -30,6 +30,8 @@ Projects completed as part of the Foundations curriculum:
 | Calculator | A simple Calculator  | HTML, CSS, Javascript | [View](https://deolawage.github.io/Odin-Projects/Calculator/)|
 | Form | A simple Form Using Html Validation  | HTML, CSS | [View](https://deolawage.github.io/Odin-Projects/Form/)|
 | Library App | A simple Library  | HTML, CSS, Javascript | [View](https://deolawage.github.io/Odin-Projects/LibraryApp/)|
+| Tic Tac Toe Game | A game of tic tac toe | HTML, CSS, Javascript | [View](https://deolawage.github.io/Odin-Projects/tictactoe/)|
+
 
 ---
 ## 📈 Currently Learning
